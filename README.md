@@ -16,3 +16,7 @@ To retrieve data we used Apify and Chartmetrics. Under the original_data folder 
 We then used the files in the prepare_data folder to preprocess the data and create some visualizations for the dashboard
 Lastly the final data the dashboard needs is displayed in the clean_data repository, which should then be replaced by the data previously processed if you wanted to visualize next years’ dashboard.
 Once updated, simply relaunch the app using the streamlit run app.py command. The dashboard will automatically reflect the new data without needing to modify the code.
+
+Since the data was too big for us to add into github, the data needed to run the dashboard will be shared to you via drive, using this link: https://drive.google.com/drive/folders/1OcqhnH7ezC_wV7PtKqzRP2xdKI0oUxPT?usp=sharing
+
+In here you will find 2 .zip files, clean_data, which is the data needed to run the dashboard (must place the folder in the same repository as app.py), and also original_data, which corresponds to the data we started with and you can update if you want.
